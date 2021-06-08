@@ -27,10 +27,12 @@ Wink是AndroidStudio的一个快速构建插件。Wink的目标是建立一个�
 
 
 2. 点击wink按钮，你可以看到这样的对话框。选择项目根目录的build.gradle文件和主应用程序build.gradle文件。通过点击安装按钮自动改变gradle文件。
+
     <img src="https://s.momocdn.com/s1/u/dcehhhadi/sh_config_dialog.jpeg" width = "500"  alt="图片名称" align=center />
 
 
 3. 再次点击wink按钮，开始编译，你可以如下窗口看到相关日志
+
     <img src="https://s.momocdn.com/s1/u/dcehhhadi/sh_console.png" width = "500"  alt="图片名称" align=center />
 
 
@@ -64,6 +66,7 @@ plugins {
 
 ##通过Gradle或终端运行
 1. 安装插件后，你可以通过Wink按钮运行或通过gradle任务列表中的gradle任务litebuild运行
+
     <img src="https://s.momocdn.com/s1/u/dcehhhadi/gradle_task_lite_build.png" width = "330" height = "305" alt="图片名称" align=center />
 
 
