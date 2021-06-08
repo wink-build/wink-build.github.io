@@ -3,7 +3,7 @@ pages:
     - Overview: index.md
     - Getting Started: [install.md,use.md]
     - Fundamentals: [introduction.md,howwork.md]
-    - Help& Community:
+    - Help & Community:
         - FAQ : faq.md
         - StackOverFlow: "https://stackoverflow.com/questions/tagged/wink-build?sort=active"
     - Change Log: changelog.md
@@ -14,4 +14,3 @@ theme:
   favicon: 'images/favicon.png'
   palette:
       primary: "black"
-      accent: "Light"
