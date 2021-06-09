@@ -456,37 +456,42 @@
               
                 
                 
-                <h1 id="install-wink">Install Wink</h1>
-<h2 id="install-by-androidstuido-plugin">Install by AndroidStuido Plugin</h2>
+                <h1 id="install-wink">Install Wink<a class="headerlink" href="#install-wink" title="Permanent link">&para;</a></h1>
+<h2 id="install-by-androidstuido-plugin">Install by AndroidStuido Plugin<a class="headerlink" href="#install-by-androidstuido-plugin" title="Permanent link">&para;</a></h2>
 <ol>
-<li>Download the Plugin from the <a href="https://s.momocdn.com/s1/u/dcehhhadi/Wink-0.0.3.zip">Wink.zip</a></li>
+<li>Download the Plugin from the <a href="https://s.momocdn.com/s1/u/geajgghjh/Wink-0.0.1.zip">Wink.zip</a></li>
 <li>Open AndroidStudio </li>
 <li>Drag Wink.zip to AndroidStudio </li>
 <li>Restart AndroidStudio</li>
 </ol>
-<h2 id="install-by-gradle">Install by Gradle</h2>
-<p>1 . Find your build.gradle in your project root folder, and add line classpath 'com.immomo.litebuild:plugin:0.1.1' in dependencies block</p>
-<pre><code>buildscript {
+<h2 id="install-by-gradle">Install by Gradle<a class="headerlink" href="#install-by-gradle" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Find your build.gradle in your project root folder, and add line classpath &lsquo;com.immomo.litebuild:plugin:0.1.1&rsquo; in dependencies block
+<div class="highlight"><pre><span></span><code>buildscript {
     repositories {
         mavenCentral()//use mavenCenter
     }
     dependencies {
-        classpath 'com.immomo.litebuild:plugin:0.1.45'
+        classpath &#39;com.immomo.litebuild:plugin:0.1.45&#39;
     }
 }
-</code></pre>
-<p>2 . In your main app folder find build.gradle file . Insert line plugin config like demo code</p>
-<pre><code>plugins {
-    id 'com.android.application'
-    id 'com.immomo.litebuild.plugin'
-    id 'kotlin-android'
+</code></pre></div></li>
+<li>
+<p>In your main app folder find build.gradle file . Insert line plugin config like demo code
+<div class="highlight"><pre><span></span><code>plugins {
+    id &#39;com.android.application&#39;
+    id &#39;com.immomo.litebuild.plugin&#39;
+    id &#39;kotlin-android&#39;
 }
-</code></pre>
-<p>or like this </p>
-<pre><code>apply plugin: 'com.android.application'
-apply plugin: 'com.immomo.litebuild.plugin'
-</code></pre>
-<p>3 . Sync gradle and you will sell lite-build task in your gradle Task list.</p>
+</code></pre></div>
+or like this </p>
+<p>apply plugin: &lsquo;com.android.application&rsquo;
+apply plugin: &lsquo;com.immomo.litebuild.plugin&rsquo;</p>
+</li>
+<li>
+<p>Sync gradle and you will sell lite-build task in your gradle Task list.</p>
+</li>
+</ol>
                 
               
               
