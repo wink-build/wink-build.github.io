@@ -15,7 +15,7 @@ buildscript {
         mavenCentral()//use mavenCenter
     }
     dependencies {
-        classpath 'com.immomo.litebuild:plugin:0.1.45'
+        classpath 'com.immomo.litebuild:plugin:0.1.51'
     }
 }
 ```
